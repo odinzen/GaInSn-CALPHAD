@@ -1,0 +1,18 @@
+# Pre-computed grids (large; regenerate with tern_fitted.py / tern_full.py)
+*.npy
+*.npz
+
+# Scratch and artifacts
+_work/
+artifacts/
+scratch/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+
+# OS
+.DS_Store
+Thumbs.db
