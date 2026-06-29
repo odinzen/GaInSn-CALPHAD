@@ -54,7 +54,7 @@ ax.set_facecolor("white")
 ax.plot(x_sn, hmix, color="black", lw=1.8, label="RK fit (this work)")
 ax.plot(exp_xsn, exp_hmix, marker="s", ms=7,
         mfc="white", mec="black", mew=1.5, ls="none", zorder=5,
-        label="Zivkovic et al. [2] (DTA)")
+        label="Zivkovic et al. [10] (DTA)")
 
 # Eutectic vertical line
 ax.axvline(EUTECTIC_XSN, color="black", lw=1.0, ls="--")
